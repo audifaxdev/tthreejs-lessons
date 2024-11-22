@@ -11,3 +11,23 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+canvas {
+  height: 100vh;
+}
+#html-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: white;
+  display: flex;
+  /*justify-content: left;*/
+  /*align-items: start;*/
+  width: 100%;
+  height: 100vh;
+}
+
+.annotation {
+  background: transparent;
+  color: white;
+}
